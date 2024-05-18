@@ -34,8 +34,14 @@ h3{
 
 p{
   margin-top: 0%;
+  margin-left: 20px; 
+  margin-right: 20px;
   font-size: 20px;
   text-align: center;
   padding-bottom: 30px;
   border-bottom: solid 1px #dddddd ;
+}
+
+:nth-last-of-type(1){
+  border-bottom: none;
 }
