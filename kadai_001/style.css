@@ -1,0 +1,174 @@
+/* PC・スマホ共有 */
+body{
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  max-width: 1440px;
+  margin: 0;
+}
+
+/* PC画面 */
+/* ナビゲーション */
+@media screen and (min-width:768px)
+{
+html{max-width: 1440px;}
+
+header{
+  max-width: 1440px;
+  width: 100%;
+  text-align: center;
+  margin: 50px 0 70px 0;
+}
+
+nav>a{
+  font-size: 34px;
+  color: #000000;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+.a-right{
+  padding:0 10px 0 10px;
+  margin-left: 50px; 
+  margin-right: 500px;
+  border: solid 1px #383838;
+}
+
+/* メインビジュアル */
+.mainvisual{
+  max-width: 1440px;
+  width: 100%;
+  max-height:600px ;
+  height: 100%;
+}
+
+/* 見出し */
+h2{
+  font-size: 34px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* about */
+.about{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.Profilepict{
+  border-radius: 50%;
+}
+.about-left{
+  margin-left: 100px;
+}
+h3{
+  font-size: 24px;
+}
+
+/* works */
+.Works{
+  display: flex;
+  justify-content:center;
+}
+
+.picture{
+  width: 220px;
+}
+
+.works1{
+  width: 220px;
+  margin: 10px;
+}
+
+/* フッター */
+footer{
+  margin-top: 50px;
+  text-align: center;
+}
+}
+
+/* sp画面 */
+/* ナビゲーション */
+@media screen and (max-width:767px)
+{
+html{max-width: 767px;}
+
+header{
+  max-width: 767px;
+  width: 100%;
+  text-align: center;
+  margin: 50px 0 30px 0;
+}
+
+nav>a{
+  font-size: 1.2em;
+  color: #000000;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+.a-right{
+  font-size: 30px;
+  padding:0 10px 0 10px;
+  margin-right: 10px;
+  border: solid 1px #383838;
+}
+
+/* メインビジュアル */
+.mainvisual{
+  max-width: 767px;
+  width: 100%;
+  max-height: 319px;
+  height: 100%;
+}
+
+/* 見出し */
+h2{
+  font-size: 34px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* about */
+.about{
+  text-align: center;
+}
+
+.Profilepict{
+  border-radius: 50%;
+}
+.about-left{
+  margin-left: 20px;
+  text-align: left;
+}
+h3{
+  font-size: 24px;
+  justify-content: center;
+}
+
+/* works */
+.Works{
+  display: block;
+  justify-content:center;
+}
+
+.picture{
+  width: 100%;
+}
+
+.works1{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/* フッター */
+footer{
+  margin-top: 50px;
+  text-align: center;
+}
+}
